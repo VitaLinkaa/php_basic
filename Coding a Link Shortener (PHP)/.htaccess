@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^7yNzH$ /a/7yNzH.php
+RewriteRule ^kAVMc$ /a/kAVMc.php

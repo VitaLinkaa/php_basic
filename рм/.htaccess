@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+	RewriteRule ^H9u36$ /a/H9u36.php
+	RewriteRule ^VTPg0$ /a/VTPg0.php
+	RewriteRule ^qRKZQ$ /a/qRKZQ.php
+	RewriteRule ^X5cGB$ /a/X5cGB.php
+	RewriteRule ^FKEdD$ /a/FKEdD.php
+	RewriteRule ^7JFZ3$ /a/7JFZ3.php
+	RewriteRule ^DxIVM$ /a/DxIVM.php
+	RewriteRule ^42YRj$ /a/42YRj.php
+	RewriteRule ^qYmFx$ /a/qYmFx.php
+	RewriteRule ^NbkrB$ /a/NbkrB.php
+	RewriteRule ^dSy5x$ /a/dSy5x.php
+	RewriteRule ^YBANv$ /a/YBANv.php

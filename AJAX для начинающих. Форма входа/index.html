@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shorten links</title>
+</head>
+<body>
+
+	<form action="" method="post">
+		<p>Логин: <input type="text" id="login"></p>
+		<p>Пароль: <input type="text" id="pass"></p>
+		<button type="submit">Войти!</button>
+	</form>
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  <script>
+  	$(document).ready(function(){
+  		$('button').on('click', function(){
+  			$.post(
+  				"login.php",
+  				{
+  					"login": $('#login').val(),
+  					"pass": $('#pass').val()
+  				},
+  				function(data) {
+  					console.log(data);
+  				}
+  			);
+  		});
+  	});
+  </script>
+
+
+</body>
+</html>

